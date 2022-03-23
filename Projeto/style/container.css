@@ -1,0 +1,23 @@
+/*
+#383735
+#686a6c
+#94a1a6
+#aab7bf
+#ebf0f2
+*/
+
+
+.caixa{
+  padding: 10px;
+  background-color: #aab7bf;
+}
+
+.container{
+  margin: auto;
+  padding: 10px;
+  background: #ebf0f2;
+  background-size: cover;
+  max-width: 1200px;
+  height: 1000px;
+  border-radius: 5px;
+}
