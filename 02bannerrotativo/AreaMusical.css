@@ -1,10 +1,10 @@
 *{margin: 0; padding: 0; }
-
+body{background: tomato;}
 .container-slide{
   display: flex;
   justify-content: space-between;
-  width: 50vh;
-  height: 50vh;
+  width: 500px;
+  height: 250px;
   background: black;
   margin: 20px auto;
   border-radius: 10px;
@@ -12,6 +12,6 @@
 }
 
 img{
-    width: 50vh;
-    height: 50vh;
+    width: 500px;
+    height: 250px;
 }

@@ -1,7 +1,4 @@
-window.onload = function () {
-
-    slider1()
-}
+window.onload = function () { slider1() }
 
 var c = 3000;
 function slider1() {
@@ -24,4 +21,3 @@ function slider5() {
     document.getElementById('comerci').src = './img/5.png';
     setTimeout('slider1()', c);
 }
-
