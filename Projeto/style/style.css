@@ -1,17 +1,10 @@
-/*
-#383735
-#686a6c
-#94a1a6
-#aab7bf
-#ebf0f2
-*/
+/* #383735 #686a6c #94a1a6 #aab7bf #ebf0f2 */
 
-
+/*xxxxxxx   hamburger   xxxxxxxxxxxx*/
 body, ul { margin: 0px;  padding: 0px; }
 
 li a {color: #ebf0f2; text-decoration: none; font-family: sans-serif; }
 li a:hover { background: rgba(117, 115, 115, 0.267); border-radius: 10px; }
-/**/
 
 #logo { font-size: 1.5rem; font-weight: bold; }
 
@@ -45,7 +38,7 @@ li a:hover { background: rgba(117, 115, 115, 0.267); border-radius: 10px; }
     display: block;
     position: absolute;
     width: 100%;
-    top: 70px;
+    top: 257px;
     right: 0px;
     background: #aab7bf;
     transition: 0.6s;
@@ -90,3 +83,4 @@ li a:hover { background: rgba(117, 115, 115, 0.267); border-radius: 10px; }
   #nav.active #hamburger::before { transform: rotate(135deg); }
   #nav.active #hamburger::after { transform: rotate(-135deg); top: -7px; }
 }
+/*xxxxxxx      FINALIZANDO hamburger  xxxxxxxxxxx */

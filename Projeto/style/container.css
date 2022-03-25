@@ -1,16 +1,7 @@
-/*
-#383735
-#686a6c
-#94a1a6
-#aab7bf
-#ebf0f2
-*/
+/* #383735 #686a6c #94a1a6 #aab7bf #ebf0f2 */
 
-
-.caixa{
-  padding: 10px;
-  background-color: #aab7bf;
-}
+/*DUAS DIVES*/
+.caixa{ padding: 10px; background-color: #aab7bf; }
 
 .container{
   margin: auto;
@@ -20,18 +11,29 @@
   max-width: 1200px;
   border-radius: 5px;
 }
+/*XXXXXXXXXXXXXXXXXXXXXX*/
 
+
+/*IMAGEM COM TITULO*/
+.article0{
+  background-image: url('../img/fundo/equalizer-gfac060fb2_1280.png');
+  height: 150px;
+  border-radius: 10px;
+}
+.article0 h1{
+  font: 1em sans-serif;
+  font-size: 50px;
+  padding: 40px;
+  color: rgb(254, 254, 255);
+text-align: center;}
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
-h1{text-align: center;
-margin-top: 100px;
-}
 
-img {
-max-width: 100%;
-display: block;
-}
 /* CSS FLEXBOX 1 */
+.imagens-bloco h1{ text-align: center; /*margin-top: 100px;*/ }
+
+img { max-width: 100%; display: block; }
+
 .flex {
 display: flex;
 flex-wrap: wrap;
@@ -39,10 +41,9 @@ max-width: 1100px ;
 margin: 0 auto;
 }
 
-.flex > div {
-flex: 1 1 200px;
-margin: 10px;
-background: #aab7bf;
+.flex > div { flex: 1 1 200px; margin: 10px; background: #aab7bf; }
+
+@media screen and (max-width:580px){
+  .article0 h1{ font-size: 20px; }
 }
-
-
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
