@@ -51,15 +51,23 @@ text-align: center;
   background-color: lightgreen;
   margin: 5px 10px;
   cursor: pointer;
-  transition: 0.5s ease;
+  transition: 0.5s ease 0;
   z-index: 2;
 }
 
 .carousel img:hover{
  transform: scale(1.4);
  z-index: 5; 
+ transition: 0.5s ease;
 }
 
 .item{
   background: yellow;
+  
 }
+/*
+transition: ease;
+transition-duration: 2s;
+transition-delay: 1s;
+transition: all 10s;
+  */
